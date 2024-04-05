@@ -133,6 +133,10 @@ video {
     background-color: #45a049;
 }
 
+.reasons button.active{
+    background-color: rgb(196, 202, 14);
+}
+
 .reason {
     position: absolute;
     top: calc(100% + 150px); /* Przesunięcie od dolnej krawędzi wideo */

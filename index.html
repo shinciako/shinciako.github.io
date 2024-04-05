@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZielonaRegeneracja</title>
+    <title>ZielonaBramka</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <script type="text/javascript" src="app.js"></script>
     <header>
-        <div class="logo">ZielonaRegeneracja</div>
+        <div class="logo">ZielonaBramka</div>
         <nav>
             <ul>
                 <li><button id="scrollButtonNav">Dlaczego golf?</a></li>
@@ -34,33 +34,33 @@
         <h1>11 Powodów dlaczego warto grać w golfa</h1>
         <div class="button-container">
             <div class="row">
-              <button>10</button>
-              <button>11</button>
+                <button onclick="changeReason(9)">10</button>
+                <button onclick="changeReason(10)">11</button>
             </div>
             <div class="row">
-                <button>9</button>
+                <button onclick="changeReason(8)">9</button>
             </div>
             <div class="row">
-              <button>5</button>  
-              <button>6</button>
-              <button>7</button>
-              <button>8</button>
+                <button onclick="changeReason(4)">5</button>
+                <button onclick="changeReason(5)">6</button>
+                <button onclick="changeReason(6)">7</button>
+                <button onclick="changeReason(7)">8</button>
             </div>
             <div class="row">
-              <button>2</button>
-              <button>3</button>
-              <button>4</button>
+                <button onclick="changeReason(1)">2</button>
+              <button onclick="changeReason(2)">3</button>
+              <button onclick="changeReason(3)">4</button>
             </div>
             <div class="row">
-              <button>1</button>
+                <button onclick="changeReason(0)">1</button>
             </div>
           </div>
     </div>
 
     <div class="reason">
-        <h1>Powód 1</h1>
-        <h2>Relaksacja mentalna</h2>
-        <p>Golf jest często grany w naturalnych, malowniczych otoczeniach, co zapewnia spokojną i uspokajającą atmosferę. To może pomóc piłkarzom w zarządzaniu stresem, lękiem i zmęczeniem psychicznym związanym z uprawianiem sportów w warunkach konkurencyjnych.</p>
+        <h1 id="reasonTitle">Powód 1</h1>
+        <h2 id="reasonSubtitle">Relaksacja mentalna</h2>
+        <p id="reasonText">Golf jest często grany w naturalnych, malowniczych otoczeniach, co zapewnia spokojną i uspokajającą atmosferę. To może pomóc piłkarzom w zarządzaniu stresem, lękiem i zmęczeniem psychicznym związanym z uprawianiem sportów w warunkach konkurencyjnych.</p>
     </div>
 
     <!-- Organizacja -->
