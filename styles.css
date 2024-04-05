@@ -176,3 +176,120 @@ video {
     line-height: 2;
     font-size: 23px;
 }
+
+.stars {
+    position: absolute;
+    top: calc(290% + 0px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    color: #333; 
+    line-height: 2;
+    font-size: 23px;
+    display: flex;
+    align-items: flex-start; 
+}
+
+.stars ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stars .image {
+    flex: 1;
+}
+
+.stars .content {
+    flex: 2;
+    text-align: center;
+}
+
+.stars .content p {
+    text-align: center;
+}
+
+.stars .content ul {
+    text-align: right;
+}
+.stars .image img{
+    height: 350px; 
+    width: auto;
+}
+
+.stars .buttons{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+.stars .buttons button{
+    margin: 0 10px;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.stars .buttons button.active {
+    background-color: #ccc;
+    color: #333;
+}
+
+.comp {
+    position: absolute;
+    top: calc(375% + 0px);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    text-align: left;
+    background-color: #ffd700;
+    padding: 30px;
+}
+
+.comp p{
+    font-size: 20px;
+    color: rgb(42, 102, 102);
+    font-weight: 900;
+}
+
+
+.form  {
+    position: absolute;
+    top: calc(420% + 0px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    color: #333; 
+    font-size: 23px;
+}
+
+.contact {
+    position: absolute;
+    top: calc(420% + 1200px);
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    color: antiquewhite;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #ffd700;
+}

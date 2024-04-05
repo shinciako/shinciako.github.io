@@ -13,9 +13,9 @@
         <div class="logo">ZielonaRegeneracja</div>
         <nav>
             <ul>
-                <li><button id="scrollButton">Dlaczego golf?</a></li>
-                <li><button>Celebryci</a></li>
-                <li><button>Zostań Golfistą</a></li>
+                <li><button id="scrollButtonNav">Dlaczego golf?</a></li>
+                <li><button id="scrollButtonStars">Celebryci</a></li>
+                <li><button id="scrollButtonForm">Zostań Golfistą</a></li>
             </ul>
         </nav>
     </header>
@@ -64,11 +64,52 @@
     </div>
 
     <!-- Organizacja -->
-
     <div class="organisation">
         <p>W zależności od oczekiwań specjaliści z PGA Polska zaproponują sposób rozpoczęcia przygody z golfem.
             Można skorzystać z indywidualnych i grupowych szkoleń na ZK, lekcji golfa dla początkujących, zapewnimy profesjonalny dobór sprzętu. Zainteresowani zostaną skierowani do trenerów i klubów golfowych.</p>
     </div>
+
+    <!-- Celebryci -->
+    <div class="stars" id="scrollTargetStars">
+        <div class="image">
+            <img src="images/probierz.png" alt="Zdjęcie Michała Probierza">
+        </div>
+        <div class="content">
+            <p>"Każde uderzenie na polu golfowym to nie tylko ruch kija, ale też oddech dla umysłu i regeneracja dla ciała." - Michał Probierz</p>
+            <ul>
+                <li>Wiek: 51 lat</li>
+                <li>Klub golfowy: Business Golf Club</li>
+                <li>Kluby piłkarskie:
+                    <ul>
+                        <li>Widzew Łódź</li>
+                        <li>Pogoń Szczeciń</li>
+                        <li>Górnik Zabrze</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <button class="active" onclick="changeData(1)">1</button>
+            <button onclick="changeData(2)">2</button>
+            <button onclick="changeData(3)">3</button>
+        </div>
+    </div>
+    
+<!-- Konkurs -->
+<div class="comp">
+    <p>Dla gracza, który zrobi największe postępy w sezonie ’24,</p>
+    <p>Dla losowego gracza - runda z Selekcjonerem MP.</p>
+    <p>Dla najlepszego juniora - runda z Selekcjonerem MP.</p>
+</div>
+<!-- Formularz -->
+<div class="form" id="scrollTargetForm">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHlqK3EqDW4jgPlF72q5fQz27txHoVtJ1MgWhq4N3aaOLw8w/viewform?embedded=true" width="800" height="1100" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>
+</div>
+<!-- Dane kontaktowe -->
+<div class="contact">
+    <h1>Masz pytania?</h1>
+    <p>Wyślij e-mail na <a href="mailto:shinciako@gmail.com">shinciako@gmail.com</a>.</p>
+</div>
 
 
 </body>
