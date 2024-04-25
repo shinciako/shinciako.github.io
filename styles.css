@@ -3,40 +3,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    position: fixed;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 999;
-}
 
 .logo {
-    font-size: 36px;
+    font-size: 32px;
     color: #53b737
-}
-
-nav ul {
-    list-style-type: none;
-    margin-right: 80px;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 40px;
-}
-
-nav ul li button {
-    color: white;
-    background-color: #333;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
 }
 
 .videotext {
@@ -271,10 +241,7 @@ video {
 .form  {
     position: absolute;
     top: calc(420% + 0px);
-    left: 50%;
-    transform: translateX(-50%);
-    width: fit-content;
-    max-width: 1200px;
+    max-height: 1200px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
