@@ -101,44 +101,65 @@
 
 
     <!-- Celebryci -->
-    <div class="stars" id="scrollTargetStars"> 
-        <div class="image">
-            <img src="images/probierz.png" alt="Zdjęcie Michała Probierza">
+    <div id="scrollTargetStars" class="container">
+        <div class="row justify-content-center">
+            
+                <div class="stars bg-light p-4 rounded shadow">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="image">
+                                <img src="images/probierz.png" alt="Zdjęcie Michała Probierza" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="content text-center">
+                                <p>"Każde uderzenie na polu golfowym to nie tylko ruch kija, ale też oddech dla umysłu i regeneracja dla ciała." - Michał Probierz</p>
+                                <ul class="list-unstyled text-right">
+                                    <li>Wiek: 51 lat</li>
+                                    <li>Klub golfowy: Business Golf Club</li>
+                                    <li>Kluby piłkarskie:
+                                        <ul class="list-unstyled">
+                                            <li>Widzew Łódź</li>
+                                            <li>Pogoń Szczeciń</li>
+                                            <li>Górnik Zabrze</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-12">
+                    <div class="buttons text-center">
+                        <button class="btn btn-outline-secondary active" onclick="changeData(1)">1</button>
+                        <button class="btn btn-outline-secondary" onclick="changeData(2)">2</button>
+                        <button class="btn btn-outline-secondary" onclick="changeData(3)">3</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="content">
-            <p>"Każde uderzenie na polu golfowym to nie tylko ruch kija, ale też oddech dla umysłu i regeneracja dla ciała." - Michał Probierz</p>
-            <ul>
-                <li>Wiek: 51 lat</li>
-                <li>Klub golfowy: Business Golf Club</li>
-                <li>Kluby piłkarskie:
-                    <ul>
-                        <li>Widzew Łódź</li>
-                        <li>Pogoń Szczeciń</li>
-                        <li>Górnik Zabrze</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="buttons">
-            <button class="active" onclick="changeData(1)">1</button>
-            <button onclick="changeData(2)">2</button>
-            <button onclick="changeData(3)">3</button>
-        </div>
-    </div> 
+    </div>
+    
     
 <!-- Konkurs -->
-<!-- <div class="comp">
-    <p>Dla gracza, który zrobi największe postępy w sezonie ’24,</p>
-    <p>Dla losowego gracza - runda z Selekcjonerem MP.</p>
-    <p>Dla najlepszego juniora - runda z Selekcjonerem MP.</p>
-</div> -->
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+            <div class="comp bg-warning rounded p-4">
+                <p>Dla gracza, który zrobi największe postępy w sezonie ’24,</p>
+                <p>Dla losowego gracza - runda z Selekcjonerem MP.</p>
+                <p>Dla najlepszego juniora - runda z Selekcjonerem MP.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
  
 <!-- Formularz -->
-<div class="container">
+<div id="scrollTargetForm" class="form container">
     <div class="row justify-content-center">
-        <div class="form">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHlqK3EqDW4jgPlF72q5fQz27txHoVtJ1MgWhq4N3aaOLw8w/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Ładuję…</iframe>
-        </div>
     </div>
 </div>
 

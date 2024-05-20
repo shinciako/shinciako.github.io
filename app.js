@@ -30,19 +30,19 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     scrollButton.addEventListener('click', function() {
-        scrollToTarget(scrollTarget, -70);
+        scrollToTarget(scrollTarget, -90);
     });
 
     scrollButtonNav.addEventListener('click', function() {
-        scrollToTarget(scrollTarget, 100);
+        scrollToTarget(scrollTarget, -90);
     });
 
     scrollButtonStars.addEventListener('click', function() {
-        scrollToTarget(scrollTargetStars, 150);
+        scrollToTarget(scrollTargetStars, 50);
     });
 
     scrollButtonForm.addEventListener('click', function() {
-        scrollToTarget(scrollTargetForm, 110);
+        scrollToTarget(scrollTargetForm, 50);
     });
 
 
@@ -121,13 +121,12 @@ function changeData(index) {
     switch (index) {
         case 1:
             starImage.innerHTML = `
-            <img src="images/probierz.png" alt="Zdjęcie Michała Probierza">
+            <img src="images/probierz.png" alt="Zdjęcie Michała Probierza" style="height: 300px;width: 300px">
             `;
             starsContent.innerHTML = `
                 <p>"Każde uderzenie na polu golfowym to nie tylko ruch kija, ale też oddech dla umysłu i regeneracja dla ciała." - Michał Probierz</p>
                 <ul>
                     <li>Wiek: 51 lat</li>
-                    <li>Klub golfowy: Business Golf Club</li>
                     <li>Kluby piłkarskie:
                         <ul>
                             <li>Widzew Łódź</li>
@@ -140,13 +139,12 @@ function changeData(index) {
             break;
         case 2:
             starImage.innerHTML = `
-            <img src="images/dudek.png" alt="Zdjęcie Jerzego Dudka" style="height: 300px;">
+            <img src="images/dudek.png" alt="Zdjęcie Jerzego Dudka" style="height: 300px;width: 300px">
             `;
             starsContent.innerHTML = `
                 <p>"W golfa rywalizujesz nie tylko z innymi graczami, ale także z samym sobą, ze swoimi ograniczeniami i słabościami." - Jerzy Dudek</p>
                 <ul>
                     <li>Wiek: 51 lat</li>
-                    <li>Klub golfowy: Business Golf Club</li>
                     <li>Kluby piłkarskie:
                         <ul>
                             <li>Real Madryt</li>
@@ -159,13 +157,12 @@ function changeData(index) {
             break;
         case 3:
             starImage.innerHTML = `
-            <img src="images/bednarek.png" alt="Zdjęcie Filipa Bednarka" style="height: 400px;">
+            <img src="images/bednarek.png" alt="Zdjęcie Filipa Bednarka" style="height: 300px;width: 300px">
             `;
             starsContent.innerHTML = `
                 <p>"Każde uderzenie na polu golfowym to nie tylko ruch kija, ale też oddech dla umysłu i regeneracja dla ciała." - Filip Bednarek</p>
                 <ul>
                     <li>Wiek: 31 lat</li>
-                    <li>Klub golfowy: Business Golf Club</li>
                     <li>Kluby piłkarskie:
                         <ul>
                             <li>Lech Poznań</li>
