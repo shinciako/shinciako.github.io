@@ -62,7 +62,7 @@ video {
     z-index: 1;
     text-align: center;
     color: #333;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 .reasons h1 {
@@ -208,6 +208,14 @@ video {
     font-weight: 900;
 }
 
+.comp .michal {
+    color: #bb2222;
+}
+
+.comp h1{
+    text-align: center;
+}
+
 
 .form  {
     position: relative;
@@ -230,8 +238,15 @@ video {
     color: antiquewhite;
 }
 
-.logos {
+.partner{
+    position: relative;
     margin-top: 100px;
+}
+
+.partner p{
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffd700;
 }
 
 .contact a{
