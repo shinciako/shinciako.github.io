@@ -10,20 +10,22 @@ body {
 }
 
 .videotext {
-    position: absolute;
-    top: 40%;
+    position: relative;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white; 
     z-index: 2;
+    margin-top: 300px;
 }
 
 .heading {
-    font-size: 70px;
+    font-size: 68px;
 }
 
 .videotext button{
+    width: 300px;
     padding: 10px 20px;
     font-size: 24px;
     background-color: #4CAF50;
@@ -44,26 +46,23 @@ video {
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%;
+    width: 100%;
     height: 100%;
     display: block;
     z-index: -1;
 }
 
+
 .reasons {
-    position: absolute;
-    top: calc(100% + 10px); /* Przesunięcie od dolnej krawędzi wideo */
-    left: 75%;
-    transform: translateX(-50%);
-    width: 30%;
-    max-width: 800px;
+    position: relative;
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 30px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 1;
     text-align: center;
-    color: #333; 
+    color: #333;
+    margin-top: 100px;
 }
 
 .reasons h1 {
@@ -88,7 +87,7 @@ video {
   }
 
 .reasons button{
-    margin: 0px 10px;
+    margin: 0px 5px;
     width: 50px; /* ustal szerokość */
     height: 50px; /* ustal wysokość */
     border-radius: 50%; /* ustaw border-radius na 50%, aby uzyskać kształt okręgu */
@@ -108,12 +107,10 @@ video {
 }
 
 .reason {
-    position: absolute;
-    top: calc(100% + 150px); /* Przesunięcie od dolnej krawędzi wideo */
-    left: 27%;
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
     transform: translateX(-50%);
-    width: 35%;
-    max-width: 800px;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 40px 60px;
     border-radius: 10px;
@@ -134,11 +131,9 @@ video {
 }
 
 .organisation {
-    position: absolute;
-    top: calc(220% + 0px); /* Przesunięcie od dolnej krawędzi wideo */
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 50%;
     max-width: 800px;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 40px 60px;
@@ -149,6 +144,7 @@ video {
     color: #333; 
     line-height: 2;
     font-size: 23px;
+    margin-top: 100px;
 }
 
 .stars {

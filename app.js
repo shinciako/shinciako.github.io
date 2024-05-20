@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     scrollButton.addEventListener('click', function() {
-        scrollToTarget(scrollTarget, 100);
+        scrollToTarget(scrollTarget, -70);
     });
 
     scrollButtonNav.addEventListener('click', function() {

@@ -32,51 +32,76 @@
     </div>
 
     <video autoplay loop muted playsinline>
-        <source src="/images/Przytok.mp4" type="video/mp4">
+        <source src="/images/przytok-test.mp4" type="video/mp4">
         Twoja przeglądarka nie obsługuje elementu video.
     </video>
 <!-- Dlaczego golf -->
-    <div id="scrollTarget" class="reasons">
-        <h1>11 Powodów dlaczego warto grać w golfa</h1>
-        <div class="button-container">
-            <div class="row">
-                <button onclick="changeReason(9)">10</button>
-                <button onclick="changeReason(10)">11</button>
-            </div>
-            <div class="row">
-                <button onclick="changeReason(8)">9</button>
-            </div>
-            <div class="row">
-                <button onclick="changeReason(4)">5</button>
-                <button onclick="changeReason(5)">6</button>
-                <button onclick="changeReason(6)">7</button>
-                <button onclick="changeReason(7)">8</button>
-            </div>
-            <div class="row">
-                <button onclick="changeReason(1)">2</button>
-              <button onclick="changeReason(2)">3</button>
-              <button onclick="changeReason(3)">4</button>
-            </div>
-            <div class="row">
-                <button onclick="changeReason(0)">1</button>
-            </div>
-          </div>
-    </div>
 
-    <div class="reason">
-        <h1 id="reasonTitle">Powód 1</h1>
-        <h2 id="reasonSubtitle">Relaksacja mentalna</h2>
-        <p id="reasonText">Golf jest często grany w naturalnych, malowniczych otoczeniach, co zapewnia spokojną i uspokajającą atmosferę. To może pomóc piłkarzom w zarządzaniu stresem, lękiem i zmęczeniem psychicznym związanym z uprawianiem sportów w warunkach konkurencyjnych.</p>
+<div id="scrollTarget" class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-md-6">
+            <div class="reasons bg-light p-3">
+                <h1 class="mb-4">11 Powodów dlaczego warto grać w golfa</h1>
+                <div class="button-container">
+                    <div class="row justify-content-center">
+                        <button class="btn btn-primary" onclick="changeReason(9)">10</button>
+                        <button class="btn btn-primary" onclick="changeReason(10)">11</button>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button class="btn btn-primary" onclick="changeReason(8)">9</button>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button class="btn btn-primary" onclick="changeReason(4)">5</button>
+                        <button class="btn btn-primary" onclick="changeReason(5)">6</button>
+                        <button class="btn btn-primary" onclick="changeReason(6)">7</button>
+                        <button class="btn btn-primary" onclick="changeReason(7)">8</button>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button class="btn btn-primary" onclick="changeReason(1)">2</button>
+                        <button class="btn btn-primary" onclick="changeReason(2)">3</button>
+                        <button class="btn btn-primary" onclick="changeReason(3)">4</button>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button class="btn active" onclick="changeReason(0)">1</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <!-- Organizacja -->
-    <div class="organisation">
-        <p>W zależności od oczekiwań specjaliści z PGA Polska zaproponują sposób rozpoczęcia przygody z golfem.
-            Można skorzystać z indywidualnych i grupowych szkoleń na ZK, lekcji golfa dla początkujących, zapewnimy profesjonalny dobór sprzętu. Zainteresowani zostaną skierowani do trenerów i klubów golfowych.</p>
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="reason bg-light p-3">
+                <h1 id="reasonTitle" class="mb-4">Powód 1</h1>
+                <h2 id="reasonSubtitle" class="mb-4">Relaksacja mentalna</h2>
+                <p id="reasonText">Golf jest często grany w naturalnych, malowniczych otoczeniach, co zapewnia spokojną i uspokajającą atmosferę. To może pomóc piłkarzom w zarządzaniu stresem, lękiem i zmęczeniem psychicznym związanym z uprawianiem sportów w warunkach konkurencyjnych.</p>
+            </div>
+        </div>
     </div>
+</div>
+
+
+
+ <!-- Organizacja -->
+ <div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+            <div class="organisation bg-light p-4 rounded shadow">
+                <p>W zależności od oczekiwań specjaliści z PGA Polska zaproponują sposób rozpoczęcia przygody z golfem. 
+                Można skorzystać z indywidualnych i grupowych szkoleń na ZK, lekcji golfa dla początkujących, zapewnimy profesjonalny dobór sprzętu. Zainteresowani zostaną skierowani do trenerów i klubów golfowych.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
     <!-- Celebryci -->
-    <div class="stars" id="scrollTargetStars">
+    <div class="stars" id="scrollTargetStars"> 
         <div class="image">
             <img src="images/probierz.png" alt="Zdjęcie Michała Probierza">
         </div>
@@ -99,14 +124,15 @@
             <button onclick="changeData(2)">2</button>
             <button onclick="changeData(3)">3</button>
         </div>
-    </div>
+    </div> 
     
 <!-- Konkurs -->
-<div class="comp">
+<!-- <div class="comp">
     <p>Dla gracza, który zrobi największe postępy w sezonie ’24,</p>
     <p>Dla losowego gracza - runda z Selekcjonerem MP.</p>
     <p>Dla najlepszego juniora - runda z Selekcjonerem MP.</p>
-</div>
+</div> -->
+ 
 <!-- Formularz -->
 <div class="container">
     <div class="row justify-content-center">
