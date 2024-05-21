@@ -6,7 +6,8 @@ body {
 
 .logo {
     font-size: 32px;
-    color: #53b737
+    color: #53b737;
+    margin-left: 5px;
 }
 
 .videotext {
