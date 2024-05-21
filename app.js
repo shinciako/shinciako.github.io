@@ -67,24 +67,24 @@ const reasonsData = [
         text: 'Gra w golfa odbywa się na otwartej przestrzeni, co umożliwia kontakt z naturą i aktywność na świeżym powietrzu. To może być korzystne dla zdrowia fizycznego i psychicznego.'
     },
     {
-        subtitle: 'Kontakt z naturą',
-        text: 'Pola golfowe są często położone w malowniczych, naturalnych miejscach, co daje graczom możliwość cieszenia się pięknem przyrody i kontaktu z nią podczas gry.'
+        subtitle: 'Możesz zagrać sam lub z partnerem - wygraj z polem',
+        text: 'Golf daje elastyczność w wyborze sposobu gry. Możesz zdecydować się na samodzielną grę, co pozwala na pełne skupienie i introspekcję, lub grać z partnerem, co wprowadza element rywalizacji i towarzyskiej zabawy.'
     },
     {
-        subtitle: 'Zmniejszenie stresu',
-        text: 'Gra w golfa może pomóc w zmniejszeniu poziomu stresu poprzez skupienie się na grze i otoczeniu. To może prowadzić do uczucia relaksu i spokoju.'
+        subtitle: 'Inaczej niż na boisku - tam chcesz mieć więcej bramek, tu jak najmniej uderzeń',
+        text: 'W golfie zasady są odwrotne do tych znanych z wielu innych sportów. Zamiast dążyć do zdobycia jak największej liczby punktów, celem jest wykonanie jak najmniejszej liczby uderzeń. '
     },
     {
         subtitle: 'Kreowanie więzi społecznych',
         text: 'Gra w golfa może być doskonałą okazją do budowania więzi społecznych i nawiązywania nowych znajomości. Wspólne przeżycia na polu golfowym mogą zacieśniać relacje między graczami.'
     },
     {
-        subtitle: 'Rozwój umiejętności interpersonalnych',
-        text: 'Interakcja z innymi graczami na polu golfowym może pomóc w rozwoju umiejętności interpersonalnych, takich jak komunikacja, współpraca i negocjacje.'
+        subtitle: 'Golf ekscytuje - za każdym razem gramy w innych warunkach',
+        text: 'Każda runda golfa to nowe wyzwanie, ponieważ warunki gry nigdy nie są identyczne. Pogoda, wiatr, wilgotność, a nawet kondycja trawy mogą wpływać na wynik. Ta zmienność sprawia, że każda gra jest unikalna i ekscytująca, a gracze muszą ciągle dostosowywać swoje strategie.'
     },
     {
-        subtitle: 'Ruch na świeżym powietrzu',
-        text: 'Gra w golfa angażuje różne partie ciała i wymaga poruszania się po otwartym terenie, co sprzyja aktywności fizycznej i zdrowemu stylowi życia.'
+        subtitle: 'W golfa może grać każdy ',
+        text: 'Golf to sport dla wszystkich, niezależnie od wieku czy poziomu umiejętności. Jest to doskonała forma aktywności fizycznej, którą można uprawiać przez całe życie. '
     },
     {
         subtitle: 'Rozwój samodyscypliny',
