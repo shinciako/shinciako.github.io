@@ -160,7 +160,7 @@ function changeData(index) {
             <img src="images/bednarek.png" alt="Zdjęcie Filipa Bednarka" style="height: 300px;width: 300px">
             `;
             starsContent.innerHTML = `
-                <p>"Każde uderzenie na polu golfowym to nie tylko ruch kija, ale też oddech dla umysłu i regeneracja dla ciała." - Filip Bednarek</p>
+                <p>"Gra w golfa to nie tylko technika, ale i momenty wyciszenia oraz koncentracji, które odświeżają umysł i ciało." - Filip Bednarek</p>
                 <ul>
                     <li>Wiek: 31 lat</li>
                     <li>Kluby piłkarskie:
