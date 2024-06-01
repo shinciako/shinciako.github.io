@@ -91,8 +91,8 @@ const reasonsData = [
         text: 'Regularna praktyka golfa wymaga samodyscypliny i samokontroli. Utrzymywanie wysokiego poziomu koncentracji przez całą rundę może pomóc w rozwijaniu tych umiejętności, które mogą być przydatne również w innych obszarach życia.'
     },
     {
-        subtitle: 'Możliwość poznania nowych miejsc',
-        text: 'Gra w golfa to doskonała okazja do poznawania nowych miejsc i odkrywania różnorodnych pól golfowych na całym świecie. To może prowadzić do przygód, nowych doświadczeń i fascynujących podróży.'
+        subtitle: 'Golf to alternatywa',
+        text: 'Grasz indywidualnie i sam pracujesz na wynik, ale stajesz się lepszym dla drużyny.'
     }
 ];
 
